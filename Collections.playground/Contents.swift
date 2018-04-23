@@ -27,6 +27,7 @@ import Foundation
  Try that code now.
  */
 // Create the emptry shopping list
+var shoppingList : [String] = []
 
 
 
@@ -42,12 +43,16 @@ import Foundation
  Try that code now.
  */
 // Add the first item to the shopping list
-
+shoppingList.append("Six Whole turkeys")
 
 /*:
  Now add the remaining four items to the shopping list from the example shown above.
  */
 // Add the remaining items to the shopping list
+shoppingList.append("eggs")
+shoppingList.append("potato")
+shoppingList.append("A live aliem")
+shoppingList.append("cheese")
 
 
 /*:
@@ -62,7 +67,7 @@ import Foundation
  Try this now.
  */
 // Create an array with ten values defaulting to zero
-
+var tenIntegers = Array(repeating: 0, count: 10)
 
 /*:
  
@@ -73,6 +78,8 @@ import Foundation
  
  */
 // Complete the exercises here
+var fivetenIntegers = Array(repeating: 15, count: Int(Double(50.0)))
+var fiveIntegers = Array(repeating: 5, count: A)
 
 
 
