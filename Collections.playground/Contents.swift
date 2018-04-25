@@ -79,7 +79,7 @@ var tenIntegers = Array(repeating: 0, count: 10)
  */
 // Complete the exercises here
 var fivetenIntegers = Array(repeating: 15, count: Int(Double(50.0)))
-var fiveIntegers = Array(repeating: 5, count: A)
+var fiveIntegers = Array(repeating: 5, count: 1) // What?
 
 
 
@@ -109,8 +109,13 @@ var fiveIntegers = Array(repeating: 5, count: A)
  Try creating this dictionary now.
  */
 // Create a dictionary to connect airport codes to airport names
+var airports: [String : String] = [:]
+airports["YYZ"] = "Toronto Pearson"
+airports["DXB"] = "Dubai International"
+airports["KLIA"] = "Kuala Lumpur International Airport"
 
-
+print(airports["YYZ"])
+print(airports["AMS"])
 /*:
  **NOTE**
  
