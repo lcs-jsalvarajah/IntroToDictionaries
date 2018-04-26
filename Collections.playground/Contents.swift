@@ -113,7 +113,7 @@ var airports: [String : String] = [:]
 airports["YYZ"] = "Toronto Pearson"
 airports["DXB"] = "Dubai International"
 airports["KLIA"] = "Kuala Lumpur International Airport"
-
+print(airports)
 print(airports["YYZ"])
 print(airports["AMS"])
 /*:

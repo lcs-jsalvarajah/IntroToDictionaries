@@ -43,3 +43,5 @@ print(frequency)
 //print(frequency["e"])
 //print(frequency["E"])
 
+// Use for distinct code. 
+
